@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.red{
+  background:red;
+}
+
+.white{
+  background:white;
+}
+
+.black{
+  background:black;
+}
+
+#center { 
+  height: 9%;
+  position: relative;
+
+}
+
+#center canvas {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+}

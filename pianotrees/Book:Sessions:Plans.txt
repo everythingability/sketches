@@ -1,0 +1,38 @@
+Sourcing Images
+Isolating Images
+
+Montage
+Glitching for the sake of it
+Full on photo editing
+
+Creating a large poster
+
+Web Development
+  HTML and CSS and Glitch
+
+Writing Ideas
+Creating a zine
+Storytelling Tools
+Twine
+
+Audio
+Audio Noodling
+Editing With Audacity
+Bandlab
+Song/audio creation ideas
+Sonic Pi
+Orca
+
+Animation
+
+App Creation
+
+Simple Augmented Reality
+
+
+
+Coding
+  p5js
+
+Cleaning Data with Regex, Spreadsheets and Open Refine
+  Visualisation and Infographics

@@ -1,0 +1,27 @@
+
+https://hydra.ojack.xyz/?sketch_id=U0cO1NxT0BjmF0Xy
+https://live.staticflickr.com/47/184046352_27d36e57b7_o_d.jpg
+
+imgEl = document.createElement('img');
+imgEl.crossOrigin = 'anonymous';
+imgEl.src = 'http://tomsmith.webfactional.com/cors/sheeps_eye.jpg'
+
+s0.init({src: imgEl});
+
+src(s0)
+  .modulate(osc(5))
+  .kaleid(3)
+  .repeat(2,2)
+  .kaleid(6)
+  
+  
+  .out()
+
+
+CTRL-Enter: run a line of code
+CTRL-Shift-Enter: run all code on screen
+ALT-Enter: run a block
+CTRL-Shift-H: hide or show code
+CTRL-Shift-F: format code using Prettier
+CTRL-Shift-S: Save screenshot and download as local file
+CTRL-Shift-G: Share to twitter (if available). Shares to @hydra_patterns

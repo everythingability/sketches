@@ -1,0 +1,28 @@
+#ifdef GL_ES
+precision highp float;
+#endif
+
+#define HALF_PI 1.57079632679
+
+varying vec2 vTexCoord;
+uniform sampler2D tex0;
+uniform float xpos;
+uniform float ypos;
+uniform float w;
+uniform float ratio;
+uniform float A;
+
+mat2 rotation( in float angle ) {
+	return mat2( cos(angle),	-sin(angle),
+  					   sin(angle),	 cos(angle));
+}
+
+void main() {
+  vec2 uv = vTexCoord;
+  vec2 xy = vec2(1.0,ratio)*abs((uv - vec2(0.5)));
+  xy = w*rotation(A)*xy;
+  vec4 tex = texture2D(tex0, vec2(1.0,1.0/ratio)*(xy) + vec2(xpos,ypos));
+
+  gl_FragColor = vec4(tex.rgb,1.0);
+
+}

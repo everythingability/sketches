@@ -1,0 +1,34 @@
+<!DOCTYPE html><html><head>
+  <title>Wander 2</title>
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+  
+  <script src="Trail.js"></script>
+  <script src="Ball.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+ 
+  <div id="canvas"></div>
+  
+  <div class="interface">
+  <button id="b_reset" style="background-color: lightBlue">Reset</button>
+  <button id="b_run" style="background-color: lightGreen">Run/Pause</button>
+  <button id="b_single" style="background-color: lightCyan">Single Step</button>
+  <br>
+  <button id="b_wrap" style="background-color: orange">Solid/Wrapped</button>
+  <br>
+  <input id="slider_wanderNoise" type="range" max="1.5" step="0.1" value="0.3">
+  <br>
+  <label id="text_wanderNoise">wanderNoise = 0.30</label>
+  </div>
+
+
+</body></html>

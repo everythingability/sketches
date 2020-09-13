@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Library Guide</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Video Stuff</name>
+      <Placemark>
+        <name>The Library Foyer</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=T9FtPihavio"><img src="https://img.youtube.com/vi/T9FtPihavio/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/T9FtPihavio">https://www.youtube.com/embed/T9FtPihavio</a><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/T9FtPihavio</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.0521635,53.9490853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Validate Your Card</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=vSP6eLFqJ0Y"><img src="https://img.youtube.com/vi/vSP6eLFqJ0Y/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/vSP6eLFqJ0Y">https://www.youtube.com/embed/vSP6eLFqJ0Y</a><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/vSP6eLFqJ0Y</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.0523352,53.949109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harry Fairhurst</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=0Fx95-GMvAc"><img src="https://img.youtube.com/vi/0Fx95-GMvAc/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/0Fx95-GMvAc">https://www.youtube.com/embed/0Fx95-GMvAc</a><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/0Fx95-GMvAc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.0524344,53.9493696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Digital Creativity Week</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=OhDwy1slNiE"><img src="https://img.youtube.com/vi/OhDwy1slNiE/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/OhDwy1slNiE">https://www.youtube.com/embed/OhDwy1slNiE</a><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/OhDwy1slNiE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.0529142,53.9496474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

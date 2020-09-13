@@ -1,0 +1,17 @@
+precision mediump float;
+
+varying vec2 vTexCoord;
+
+uniform sampler2D tex0;
+uniform vec2 offset;
+
+void main() {
+  vec2 uv = vTexCoord;
+  uv.y = 1.0 - uv.y;
+
+  float r = texture2D(tex0, uv + vec2(offset)).r;
+  float g = texture2D(tex0, uv).g;
+  float b = texture2D(tex0, uv - vec2(offset)).b;
+
+  gl_FragColor = vec4(r, g, b, 1.0);
+}
