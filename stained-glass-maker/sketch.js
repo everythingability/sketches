@@ -28,7 +28,7 @@ function setup() {
   canvas.drop(gotFile);
   buffer = createGraphics(width, height);
   
-  sbg = createGraphics(width, height);
+  bg = createGraphics(width, height);
   bg.noStroke();
   for (let i = 0; i < 300000; i++) {
     let x = random(width);
