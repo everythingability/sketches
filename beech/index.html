@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Basics</title>
+	  <link rel="stylesheet" href="styles.css">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- https://github.com/feiss/aframe-environment-component/ -->
+     <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+
+  </head>
+  <body>
+
+<a-scene>
+
+<a-assets>
+    <img id="clouds" src="https://cdn.vox-cdn.com/thumbor/KBg_j6ZhxwmCd6uH8z6jr79GvXk=/0x0:1004x753/1820x1213/filters:focal(422x296:582x456):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63710251/20150428-cloud-computing.0.1489222360.0.jpg"/>
+
+    <img
+          id="forest"
+          crossorigin="anonymous"
+          src="./beech_pano.jpg"
+        />
+
+      <audio id="beech" src="./beech.mp3" ></audio>
+
+  
+</a-assets>
+
+<a-box
+     position="0.743 0.800 -1.950"
+        scale="0.25 0.25 0.25"
+        rotation="0 30 0"
+        src="#bricks"
+      >
+   <a-sound autoplay="true" loop="true" src="#beech"></a-sound>    
+      </a-box>
+
+      <a-sky src="#forest"></a-sky>
+
+      <a-entity><a-camera wasd-controls-enabled="false"></a-camera></a-entity>
+
+    </a-scene>
+  </body>
+</html>
